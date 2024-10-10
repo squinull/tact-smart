@@ -52,8 +52,8 @@ describe('BuyNeftedollars', () => {
             const messageBody = lastTransaction.inMessage.body?.beginParse();
 
             if (messageBody) {
-                const identifier = messageBody.loadUint(32); // Идентификатор сообщения
-                const rewardAmount = messageBody.loadInt(64); // Количество Neftedollars
+                const identifier = messageBody.loadUint(32);
+                const rewardAmount = messageBody.loadInt(64);
 
                 console.log(`Message identifier: ${identifier.toString(16)}`);
                 console.log(`Reward: ${rewardAmount} Neftedollars`);
