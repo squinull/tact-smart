@@ -27,7 +27,7 @@
 
 ## Contract Structure  
 
-### Reacieve Message  
+### Reaceive Message  
 
 `receive()`– called when an empty message is sent to the contract  
 
