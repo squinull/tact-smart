@@ -1,4 +1,4 @@
-# OilMagnate
+# OilMagnate Tact Smart-Contract v1.3
 
 ## Project structure
 
@@ -24,3 +24,11 @@
 ### Add a new contract
 
 `npx blueprint create ContractName` or `yarn blueprint create ContractName`
+
+## Recieve message
+
+`receive()`– called when an empty message is sent to the contract
+`receive("message")`– called when a text message with a specific comment is sent to the contract
+`receive(str: String)`– called when an arbitrary text message is sent to the contract
+`receive(msg: MyMessage)`– called when a binary message of type MyMessage is sent to the contract
+`receive(msg: Slice)`– called when binary message of unknown type is sent to the contract
