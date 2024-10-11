@@ -25,7 +25,9 @@
 
 `npx blueprint create ContractName` or `yarn blueprint create ContractName`
 
-## Recieve message
+## Contract Structure  
+
+### Reacieve Message  
 
 `receive()`– called when an empty message is sent to the contract  
 
